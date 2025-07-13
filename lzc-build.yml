@@ -1,0 +1,14 @@
+# 懒猫微服构建配置文件
+
+manifest: ./lzc-manifest.yml
+contentdir: ./app
+pkgout: ./
+icon: ./lzc-icon.png
+devshell:
+  routes:
+    - /=http://127.0.0.1:3000
+  dependencies:
+    - nodejs
+    - npm
+
+      

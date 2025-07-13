@@ -1,0 +1,12 @@
+{
+  "name": "bigteethplayer",
+  "version": "1.0.0",
+  "description": "懒猫微服音乐播放器应用",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "author": "",
+  "license": "MIT"
+}
